@@ -1,0 +1,29 @@
+{
+  "name": "react-translate-plugin",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://nichitaa.github.io/react-translate-plugin/",
+  "dependencies": {
+    "antd": "^4.16.13",
+    "ebs-intl": "link:..",
+    "gh-pages": "^3.2.3",
+    "react": "link:../node_modules/react",
+    "react-dom": "link:../node_modules/react-dom",
+    "react-scripts": "link:../node_modules/react-scripts"
+  },
+  "scripts": {
+    "serve:client": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
