@@ -11,6 +11,7 @@ Imagine, that your application should work in different languages, that will mea
 
 The only dependency used in `example` app is `antd`, as it is more pleasant to look at some styled components than the default browser ones, not big deal there, the presented examples are still super simple. 
 
+
 ## Main interfaces
 ```tsx
 enum Locale {
@@ -36,9 +37,10 @@ interface ITranslateFunc {
 
 ```
 
-## Usage:
+## Usage
+[demo link](https://nichitaa.github.io/react-translate-plugin/)
 
-Wrap your `App` component with `TranslateProvider` passing the required props: locale and translate.
+Wrap your `App` component with `TranslateProvider` passing the required props: `locale` and `translate`.
 
 ```JSX
 <TranslateProvider locale={locale} translate={translate}>
@@ -96,4 +98,3 @@ const Component = () => {
 
 export default Component;
 ```
-
